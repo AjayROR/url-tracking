@@ -1,10 +1,12 @@
 <h3> Dashboard </h3>
-<h5> Please wait 2 minutes, while we'll check and update the urls health for you. </h5>
+
 <% if @urls.blank? %>
  <h3> Sorry No Url is registered yet.</h3>
 <% else %>
 
 <ul id='urls'>
+  <h5> Please wait 2 minutes, while we'll check and update the urls health for you. </h5>
+
   <% @urls.each do |url| %>
     <li class='url-row'>
       <span class='address'>     <%= url.address %> </span>
