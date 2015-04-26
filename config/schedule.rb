@@ -21,6 +21,7 @@
 
 
 set :output, 'log/cron_log.log'
+
 every 2.minutes do
   rake 'url_tracker:check_health'
 end

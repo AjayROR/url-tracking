@@ -7,4 +7,22 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 require 'faker'
-2.times { Url.create(address: Faker::Internet.url) }
+
+urls = []
+#  Create a sample User
+user = User.create(
+  email: 'sample@user.com',
+  password: '12345678',
+  password_confirmation: '12345678'
+)
+
+# Create  5 sample urls
+5.times  do
+  new_url = Url.new(address: Faker::Internet.url)
+  urls.push new_url
+end
+
+# assigning urls to the user
+user.urls << urls
+
+puts "Created user with email ID #{user.email} having  5 urls"
