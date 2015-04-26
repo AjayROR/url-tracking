@@ -1,0 +1,58 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+/*
+.url-row{
+  font-size: 1.3em;
+  line-height: 1.6em;
+  padding: 2px;
+  display: block;
+  width: 30%;
+}
+
+.address{
+  float: left;
+}
+
+.url-status{
+  float: right;
+}
+
+#urls {
+  width: 72%;
+  float: right;
+}
+
+*/
+
+.field_with_errors{
+  background-color:  #FFFFFF !important;
+}
+
+#user_nav {
+  float: right;
+}
+
+#user_nav a {
+  float: right;
+  display: block;
+  width: 100%;
+}
+.error{
+  color: #FF0000;
+}
+
+.success{
+  color: #00FF00;
+}

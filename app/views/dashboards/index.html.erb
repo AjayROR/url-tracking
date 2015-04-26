@@ -1,0 +1,42 @@
+<h3> Dashboard </h3>
+<h5> Please wait 2 minutes, while we'll check the urls health for you. </h5>
+<% if @urls.blank? %>
+ <h3> Sorry No Url is registered yet.</h3>
+<% else %>
+
+<ul id='urls'>
+  <% @urls.each do |url| %>
+    <li class='url-row'>
+      <span class='address'>     <%= url.address %> </span>
+      <span class='url-status'>  <%= url.status %>  </span>
+    </li> <br>
+  <% end %>
+</ul>
+<% end %>
+
+
+<%= content_for :javascript do %>
+
+  <script type="text/javascript">
+
+    var source = new EventSource('url_track');
+
+    console.log('Attached event source');
+
+    source.addEventListener('results', function(e){
+
+      $('#urls').html('');
+      arrays = $.parseJSON(e.data)
+
+      for(i=0 ; i< arrays.length ; i++){
+        var url = $.parseJSON(e.data)[i];
+        $("#urls").append("<li>"+ url.address + ':' + url.status +"</li>");
+      }
+    });
+
+    source.addEventListener('finished', function(e){
+      console.log('Close:', e.data);
+      source.close();
+    });
+  </script>
+<% end %>

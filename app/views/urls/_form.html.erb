@@ -1,0 +1,16 @@
+
+  <%= form_for @url, html: { id: 'url_form' } do |url| %>
+  <h5 class='error'> <%= base_error(@url) %> </h5>
+    <hr>
+
+      <div class="field">
+        <%= url.label :address, 'Enter Url' %>
+        <%= url.text_field :address, placeholder: 'Enter  an Url' %>
+      </div>
+    <hr>
+
+    <%= url.submit  %>
+
+  <% end %>
+
+

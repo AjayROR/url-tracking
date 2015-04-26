@@ -1,0 +1,897 @@
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+  [1m[36mUrl Load (1.5ms)[0m  [1mSELECT id, address, status FROM "urls"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."address" = 'http://www.google.com' AND "urls"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."address" = 'www.google.com' AND "urls"."id" != 3) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+404 Resource Not Found
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."address" = 'http://leuschkeschroeder.info/santa' AND "urls"."id" != 4) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."address" = 'http://railscasts.com/episodes/' AND "urls"."id" != 5) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."address" = 'http://railscasts.com/episodes/302-in-place-editing?view=asciicast' AND "urls"."id" != 6) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  commit transaction
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::MissingTemplate (Missing template dashboards/track, application/track with {:locale=>[:en], :formats=>["text/event-stream"], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ajaysahu/project/ror/dummy/rails-and-server-sent-events/app/views"
+  * "/home/ajaysahu/.rvm/gems/ruby-2.1.5/gems/devise-3.4.1/app/views"
+):
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/path_set.rb:46:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/lookup_context.rb:115:in `find'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:8:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ajaysahu/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:413:in `_run__3804552322268455925__process_action__callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /home/ajaysahu/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+

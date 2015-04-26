@@ -1,0 +1,17 @@
+<% if @urls.blank? %>
+ <h3> Sorry No Url is registered yet.</h3>
+<% else %>
+
+<ul id='urls'>
+  <% @urls.each do |url| %>
+    <li class='url-row'>
+      <span class='address'>     <%= url.address %> </span>
+      <span class='url-status'>  <%= url.status %>  </span>
+      <%= link_to 'Edit', edit_url_path(url) %>
+    <%= link_to 'Delete', url_path(url), method: :delete, data: {confirm: 'Are you sure to remove this Url ?'} %>
+    </li>
+
+    <br>
+  <% end %>
+</ul>
+<% end %>
