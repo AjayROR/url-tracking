@@ -7,12 +7,10 @@ git clone https://github.com/AjayROR/url-tracking.git
 
 bundle install
 
-rake db:drop rake db:create
-
-rake db:migrate
+bundle exec rake db:drop db:create db:migrate
 
 ### Run this to create sample user & 5 urls for them.
-rake db:seed
+bundle exec rake db:seed
 
 ### Update the cron tasks & set the environment to development(Assumption)
 crontab -r
